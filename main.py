@@ -12,15 +12,15 @@ from PySide6 import QtCore, QtWidgets, QtGui
 
 # ---------------- CONFIG ------------------
 
-LAUNCHER_VERSION = "1.0.0"
+LAUNCHER_VERSION = "1.0.1"
 
 BUILD_URL_WIN = "https://github.com/acierto-incomodo/unrailed/releases/latest/download/Build.zip"
 BUILD_URL_LINUX = "https://github.com/acierto-incomodo/unrailed/releases/latest/download/Build.zip"
 VERSION_URL = "https://github.com/acierto-incomodo/unrailed/releases/latest/download/Version.txt"
 RELEASE_NOTES_URL = "https://github.com/acierto-incomodo/unrailed/releases/latest/download/ReleaseNotes.txt"
 
-EXE_NAME_WIN   = "Build/Launcher.exe"
-EXE_NAME_LINUX = "Build/Launcher.exe"
+EXE_NAME_WIN   = "Build/UnrailedGame.exe"
+EXE_NAME_LINUX = "Build/UnrailedGame.exe"
 
 DOWNLOAD_DIR = Path.cwd() / "downloads"
 GAME_DIR     = Path.cwd() / "game"

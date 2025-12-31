@@ -1,7 +1,7 @@
 Cambios
 
-Launcher (v1.0.0):
-- NaN
+Launcher (v1.0.1):
+- Corrección de errores
 
 Juego (v1.0.0):
 - NaN
