@@ -1,7 +1,6 @@
 
-/dist
 /venv
-/output
 /build
 *.spec
 launcher_win.py
+dist/installer_updater.exe
