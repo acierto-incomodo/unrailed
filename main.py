@@ -83,7 +83,7 @@ class LauncherWindow(QtWidgets.QWidget):
 
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Mage Arena Launcher")
+        self.setWindowTitle("Unrailed! Launcher")
         self.setMinimumSize(520, 420)
         self.setMaximumSize(520, 420)
         self.setWindowIcon(QtGui.QIcon.fromTheme("applications-games"))
@@ -97,7 +97,7 @@ class LauncherWindow(QtWidgets.QWidget):
     def setup_ui(self):
         layout = QtWidgets.QVBoxLayout(self)
 
-        title = QtWidgets.QLabel("Mage Arena Launcher")
+        title = QtWidgets.QLabel("Unrailed!")
         title.setAlignment(QtCore.Qt.AlignCenter)
         title.setStyleSheet("font-size:22px; font-weight:bold;")
         layout.addWidget(title)
